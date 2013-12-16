@@ -1,0 +1,14 @@
+/**
+ * Grunt configuration
+ */
+'use strict';
+
+module.exports = {
+
+  jsHintFiles: [
+    'Gruntfile.js',
+    'js/**/*.js',
+    'test/*.js',
+    'test/specs/**/*.js'
+  ]
+};
